@@ -1,8 +1,8 @@
 import React from 'react';
-import buildControls from '../BuildControls';
+//import buildControls from '../BuildControls';
 import classes from './BuildControl.module.css';
 
-const buildControls = (props) => (
+const buildControl = (props) => (
 	<div className={classes.BuildControl}>
 		<div className={classes.Label}>{props.label}</div>
 		<button className={classes.Less}>Less</button>
@@ -10,4 +10,4 @@ const buildControls = (props) => (
 	</div>
 );
 
-export default buildControls;
+export default buildControl;
